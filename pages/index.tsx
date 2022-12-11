@@ -1,7 +1,7 @@
 import { Layout } from "../components/layouts";
 import { NavigationBar } from "../components/ui";
 import { Pokemon } from "../interfaces";
-import { Card, Grid, Row, Text } from '@nextui-org/react';
+import { Grid } from '@nextui-org/react';
 import {PokemonCard} from "../components/pokemons";
 
 interface Props {

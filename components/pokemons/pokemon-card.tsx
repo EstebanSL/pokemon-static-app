@@ -1,6 +1,5 @@
 import { Card, Grid, Row, Text } from '@nextui-org/react'
 import { useRouter } from 'next/router'
-import React from 'react'
 import { Pokemon } from '../../interfaces'
 
 interface Props {
