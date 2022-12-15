@@ -6,7 +6,7 @@ const pokeApi = async () => {
 }
 
 
-const pokemonApi = async (id: number) => {
+const pokemonApi = async (id: string) => {
   const data = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
   .then(response => response.json())
   return data
@@ -14,5 +14,5 @@ const pokemonApi = async (id: number) => {
 
 export {
   pokeApi,
-  pokemonApi
+  pokemonApi,
 }

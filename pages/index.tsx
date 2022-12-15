@@ -2,7 +2,7 @@ import { Layout } from "../components/layouts";
 import { NavigationBar } from "../components/ui";
 import { Pokemon } from "../interfaces";
 import { Grid } from '@nextui-org/react';
-import {PokemonCard} from "../components/pokemons";
+import { PokemonCard } from "../components/pokemons";
 
 interface Props {
   pokemons: Pokemon[]
@@ -10,11 +10,9 @@ interface Props {
 
 export default function HomePage({ pokemons }: Props) {
 
-  console.log(pokemons)
   return (
     <Layout title="Listado de pokemons">
       <>
-        <NavigationBar />
         <ul>
           {
             <Grid.Container gap={2} justify="flex-start">
